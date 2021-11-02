@@ -1,0 +1,320 @@
+<style type="text/css">
+ body{
+    margin:0;
+    color:#6a6f8c;
+    font:600 16px/18px 'Open Sans',sans-serif;
+    background-color:white;
+    font-family: Times New Roman;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+
+.hr{
+    height:2px;
+    margin:60px 0 50px 0;
+    background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+    text-align:center;
+}
+/*----------------------------------------meet-----------------------*/
+<style type="text/css">
+  #our-program {
+    padding: 70px 0;
+    background: #fff;
+}
+
+#our-program .top {
+    margin-bottom: 50px;
+}
+
+.card {
+    overflow: hidden;
+    border-radius:0 0 10px 10px;
+    position: relative;
+    font-family: 'lato';
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: -4px 2px 10px 3px rgba(0,0,0,0.50);
+    -moz-box-shadow: -4px 2px 10px 3px rgba(0,0,0,0.50);
+    box-shadow: -4px 2px 10px 3px rgba(0,0,0,0.50);
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+  max-height:400px;
+  overflow: hidden;
+}
+
+.card-video-top img {
+  width: 100%;
+  height:500px;
+  transition: .3s all;
+}
+
+.card:hover .card-img-top img {
+  transform: scale(1.2);
+}
+
+.card img{
+    width: 110%;
+    height: 100%;
+}
+
+.card h4 {
+    padding-top: 25px;
+    font-weight: 700;
+}
+
+.card.card-text {
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-footer {
+    background: #029eb7;
+    padding: 10px 30px;
+    font-weight: 700;
+    font-size: 15px;
+    display: inline-block;
+}
+/*--------------------------------------------------------------------*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.cf {
+    *zoom: 1;
+}
+
+.cTabs > div{
+    list-style: none;
+    float:left;
+    text-align: center;
+
+
+}
+
+.cTabs > div{
+    font-size:16px;
+    text-decoration: none;
+    padding-left:5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: none;
+    display: block;
+    background-color: #008080;
+    color:#ffffff;
+    font-weight: bold;
+    z-index: 1;
+
+    
+}
+.cTabs > div:hover{
+    -webkit-transition: color 1s, background-color 1s; /* For Safari 3.1 to 6.0 */
+    transition: color 1s, background-color 1s;    
+    color:#000;
+    cursor: pointer;
+    background-color:white;
+    border-bottom: none;
+    margin-bottom: -3px;
+     border-bottom: 3px solid #888888;
+    border-radius: 20px 20px 0 0;
+}
+.cTabContent{
+    padding: 10px;
+   background: white;
+   color:black;
+   
+
+}
+.wrapper{
+    width:100%;
+    margin:0 auto;
+}
+.cTabs > div.active{
+    color:#000;
+    background-color: #008080;
+    border-bottom: 3px solid #888888;
+    margin-bottom: -3px;
+    border-radius: 10px 10px 0 0;
+    
+}
+@media all and (min-width: 601px) {
+    .cTabs > div{    
+    width:15%;
+    border:0px solid  green;
+
+    }
+    
+}
+
+@media all and (max-width: 600px) {
+    .cTabs > div.active{
+        padding-top:19px;
+        padding-bottom: 19px;
+        margin-bottom: 0px;
+        border-radius: 10px;
+        border:1px solid  #555555;
+        border-bottom:1px solid  #555555;
+    }
+    
+    .cTabs > div:hover{
+        padding:19px;
+        margin-bottom: 0px;
+        border-radius: 10px;
+        border:1px solid  #555555;
+        border-bottom:1px solid  #555555;
+    }
+    .cTabs > div:hover{
+        padding-left:5%;
+    padding-right: 5%;
+        
+    }
+   
+    .cTabContent{
+    
+   border:1px solid #555555;
+
+}
+}
+
+
+
+</style>
+<div class="container" style="background-color:;">
+    <div class="wrapper">
+        <div id="cTabs" class="cTabs cf">
+            <div>HTML Introduction</div>
+            <div>HTML Basic</div>
+            <div>HTML Forms</div>
+            <div>HTML Media</div>
+            <!-- <div>HTML APIS</div>
+            <div>HTML Examples</div> -->
+
+        </div>
+        <div id="cTabContent" class="cTabContent">
+            <div id="ctab1">
+                <h1>HTML Introduction</h1>
+                <p>HTML is a computer language devised to allow website creation. These websites can then be viewed by anyone else connected to the Internet. It is relatively easy to learn, with the basics being accessible to most people in one sitting; and quite powerful in what it allows you to create. It is constantly undergoing revision and evolution to meet the demands and requirements of the growing Internet audience under the direction of the » W3C, the organisation charged with designing and maintaining the language.</p>
+                <p>The definition of HTML is HyperText Markup Language.<br><br>
+
+                HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
+                Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).
+                HTML is a Language, as it has code-words and syntax like any other language.</p>
+                <p>How does it work?<hr>
+                    HTML consists of a series of short codes typed into a text-file by the site author — these are the tags. The text is then saved as a html file, and viewed through a browser, like Internet Explorer or Netscape Navigator. This browser reads the file and translates the text into a visible form, hopefully rendering the page as the author had intended. Writing your own HTML entails using tags correctly to create your vision. You can use anything from a rudimentary text-editor to a powerful graphical editor to create HTML pages.
+                </p>
+                <p>
+                    What are the tags up to?<hr>
+The tags are what separate normal text from HTML code. You might know them as the words between the <angle-brackets>. They allow all the cool stuff like images and tables and stuff, just by telling your browser what to render on the page. Different tags will perform different functions. The tags themselves don’t appear when you view your page through a browser, but their effects do. The simplest tags do nothing more than apply formatting to some text, like this:
+<b>These words will be bold</b>, and these will not.
+                </p>
+                <p>
+                    Is there anything HTML can’t do?<hr>
+Of course, but since making websites became more popular and needs increased many other supporting languages have been created to allow new stuff to happen, plus HTML is modified every few years to make way for improvements.
+
+Cascading Stylesheets are used to control how your pages are presented, and make pages more accessible. Basic special effects and interaction is provided by JavaScript, which adds a lot of power to basic HTML. Most of this advanced stuff is for later down the road, but when using all of these technologies together, you have a lot of power at your disposal.
+                </p>
+
+
+                <video>
+                    <source src="html basic.mp4" type="video">
+                    
+                </video>
+                
+            </div>
+            <div id="ctab2">
+                <h1>HTML Basic</h1>
+                <video width="100%" controls>
+                  <source src="html.basic.mp4" type="video/mp4">
+                  Your browser does not support HTML video.
+                </video>
+            </div>
+            <div id="ctab3">
+                <h1>Tab Content 3</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, ut architecto modi dolores perferendis quia laboriosam reiciendis provident unde quos. Totam, ex, ad inventore quibusdam necessitatibus cumque beatae eius debitis.</p>
+            </div>
+            <div id="ctab4">
+                <h1>Tab Content 4</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, ut architecto modi dolores perferendis quia laboriosam reiciendis provident unde quos. Totam, ex, ad inventore quibusdam necessitatibus cumque beatae eius debitis.</p>
+            </div>
+
+        </div>
+    </div>
+    
+    <script type="text/javascript">
+    var makeCtab = {
+
+    config : {
+        tabNavContainer : '#cTabs',
+        tabNavElement:'div',
+        tabContentContainer : '#cTabContent',
+        tabContentElement:'div'
+    },
+
+    init:function(config){
+            $.extend(makeCtab.config, config);  
+            $(makeCtab.config.tabNavContainer)
+        .on('click', makeCtab.config.tabNavElement, this.changeContent);
+        makeCtab.showFirstTab();       
+    },
+
+    showFirstTab:function(){
+            $(makeCtab.config.tabContentContainer)
+          .find(makeCtab.config.tabContentElement).hide()
+          .filter(":first").show();
+        $(makeCtab.config.tabNavContainer)
+          .find(makeCtab.config.tabNavElement).removeClass('active')
+          .filter(":first").addClass('active');
+    },
+    showActiveTab:function(a){
+        $(a).addClass('active')
+          .siblings().removeClass('active'); 
+    },
+    changeContent:function(event){
+        event.preventDefault();
+            myIndex = $(this).index();  
+      
+        makeCtab.showActiveTab(this);
+            $(makeCtab.config.tabContentContainer)
+          .find(makeCtab.config.tabContentElement)
+          .eq(myIndex).show()
+          .siblings().hide();
+        }
+ };
+
+ $(document).ready(function() { 
+    makeCtab.init({ 
+        'tabNavContainer' : '#cTabs' 
+    }); 
+});
+</script>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <!-- <div class="col-sm-3"></div>
+        <div class="col-sm-3"></div> -->
+        <div class="col-sm-10"></div>
+        <div class="col-sm-2">
+            <button class="btn" style="background-color:#008080;"><a href="#page10">Check Schedule</a></button>
+        </div>
+    </div>
+ </div><br><br>
